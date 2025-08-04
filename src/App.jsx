@@ -1,6 +1,9 @@
 import "./App.css";
-import { Header, MainContent, ProductSection, FAQ, Footer } from "./components/WebSection";
-
+import { Header } from './components/Header';
+import { MainContent } from './components/MainContent';
+import { ProductSection } from './components/ProductSection';
+import { FAQ } from './components/FAQ';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -15,4 +18,3 @@ function App() {
 }
 
 export default App;
-
